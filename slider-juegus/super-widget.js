@@ -219,7 +219,7 @@ function main() {
 </div> \
 </div> \
 <div id="gcNavRight">&nbsp;</div> \
-<div id="gcNavLeft">&nbsp;</div> '
+<div id="gcNavLeft">&nbsp;</div> ';
         $('#slider-de-juegos').html(lestr);
         setTimeout(function(){ghostCarousel();},500);
         
