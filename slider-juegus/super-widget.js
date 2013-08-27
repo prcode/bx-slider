@@ -221,7 +221,8 @@ function main() {
 <div id="gcNavRight">&nbsp;</div> \
 <div id="gcNavLeft">&nbsp;</div> '
         $('#slider-de-juegos').html(lestr);
-        ghostCarousel();
+        setTimeout(function(){ghostCarousel();},500);
+        
         /******* Load HTML ******
         var jsonp_url = "http://jueg.us/postssliderhorizontal/?callback=?";
         $.getJSON(jsonp_url, function(data) {
