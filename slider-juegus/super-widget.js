@@ -88,7 +88,7 @@ function main() {
         var css_link = $("<link>", { 
             rel: "stylesheet", 
             type: "text/css", 
-            href: "http://prcode.github.io/slider-juegus/style-widget.css" 
+            href: "http://prcode.github.io/bx-slider/slider-juegus/style-widget.css" 
         });
         css_link.appendTo('head');          
 
