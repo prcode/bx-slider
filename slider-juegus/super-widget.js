@@ -92,8 +92,8 @@ function main() {
         });
         css_link.appendTo('head');          
         
-        $('#slider-de-juegos').hide();
-        lestr = '<div id="ghostCarousel"> \
+        //$('#slider-de-juegos').hide();
+        lestr = '<div id="ghostCarousel" style="visibility:hidden;"> \
 <div id="content"> <div class="block"> \
 <a target="_blank" href="http://jueg.us/tennis-stars-cup/"> \
 <span class="icon-wrap"> \
@@ -232,7 +232,8 @@ function main() {
 <div id="gcNavRight">&nbsp;</div> \
 <div id="gcNavLeft">&nbsp;</div> ';
         $('#slider-de-juegos').html(lestr);
-        setTimeout(function(){ $('#slider-de-juegos').show(); ghostCarousel();},500);
+         //$('#slider-de-juegos').show();
+        setTimeout(function(){ $('#ghostCarousel').css({'visibility':'visible'});  ghostCarousel();},500);
         
         /******* Load HTML ******
         var jsonp_url = "http://jueg.us/postssliderhorizontal/?callback=?";
