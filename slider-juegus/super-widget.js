@@ -14,10 +14,20 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.6.0') {
       script_tag.onreadystatechange = function () { // For old versions of IE
           if (this.readyState == 'complete' || this.readyState == 'loaded') {
               scriptLoadHandler();
+               (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
           }
       };
     } else {
       script_tag.onload = scriptLoadHandler;
+       (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
     }
     // Try to find the head, otherwise default to the documentElement
     (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
@@ -40,6 +50,9 @@ function scriptLoadHandler() {
 /******** Our main function ********/
 function main() { 
     jQuery(document).ready(function($) { 
+
+         
+       
 
         function ghostCarousel() {
         
@@ -92,8 +105,8 @@ function main() {
         });
         css_link.appendTo('head');          
         
-        //$('#slider-de-juegos').hide();
-        lestr = '<div id="ghostCarousel" style="visibility:hidden;"> \
+        $('#slider-de-juegos').hide();
+        lestr = '<div id="ghostCarousel" style=""> \
 <div id="content"> <div class="block"> \
 <a target="_blank" href="http://jueg.us/tennis-stars-cup/"> \
 <span class="icon-wrap"> \
@@ -166,6 +179,12 @@ function main() {
 <img src="https://lh3.googleusercontent.com/-mdKBNXs5mE0/UhZvwc3YnXI/AAAAAAAACx4/u7HccOByhjw/w148-h108-no/stickman.jpg"/> \
 </span> \
 </a> \
+</div><div class="block"> \
+<a target="_blank" href="http://jueg.us/tron-legacy-light-circle/"> \
+<span class="icon-wrap"> \
+<img src="https://lh3.googleusercontent.com/-EnFFiSMGYXA/Uh_PFmlWPII/AAAAAAAADGU/1hTT2E1Pzvs/w148-h108-no/tron_.jpg"/> \
+</span> \
+</a> \
 </div> <div class="block"> \
 <a target="_blank" href="http://jueg.us/hong-kong-ninja/"> \
 <span class="icon-wrap"> \
@@ -232,8 +251,11 @@ function main() {
 <div id="gcNavRight">&nbsp;</div> \
 <div id="gcNavLeft">&nbsp;</div> ';
         $('#slider-de-juegos').html(lestr);
-         //$('#slider-de-juegos').show();
-        setTimeout(function(){ $('#ghostCarousel').css({'visibility':'visible'});  ghostCarousel();},500);
+         
+        setTimeout(function(){  $('#slider-de-juegos').show(); ghostCarousel(); 
+           
+            
+        } ,900);
         
         /******* Load HTML ******
         var jsonp_url = "http://jueg.us/postssliderhorizontal/?callback=?";
@@ -249,6 +271,10 @@ function main() {
 var content = '#ghostCarousel #content';
 var section = content + ' > div';
  
+ var _gaq = _gaq || [];
+
+        _gaq.push(['juegus_slider1._setAccount', 'UA-43658701-1']);
+        _gaq.push(['juegus_slider1._trackPageview']);
 
 
 })(); // We call our anonymous function immediately
