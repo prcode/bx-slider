@@ -14,20 +14,12 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.6.0') {
       script_tag.onreadystatechange = function () { // For old versions of IE
           if (this.readyState == 'complete' || this.readyState == 'loaded') {
               scriptLoadHandler();
-               (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+              
           }
       };
     } else {
       script_tag.onload = scriptLoadHandler;
-       (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+       
     }
     // Try to find the head, otherwise default to the documentElement
     (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
@@ -271,10 +263,18 @@ function main() {
 var content = '#ghostCarousel #content';
 var section = content + ' > div';
  
- var _gaq = _gaq || [];
+ 
+
+
+})(); // We call our anonymous function immediately
+
+var _gaq = _gaq || [];
 
         _gaq.push(['juegus_slider1._setAccount', 'UA-43658701-1']);
         _gaq.push(['juegus_slider1._trackPageview']);
 
-
-})(); // We call our anonymous function immediately
+(function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
