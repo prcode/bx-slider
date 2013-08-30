@@ -271,7 +271,9 @@ var section = content + ' > div';
 var _gaq = _gaq || [];
 
         _gaq.push(['juegus_slider1._setAccount', 'UA-43658701-1']);
+        _gaq.push(['juegus_slider1._setDomainName', window.location.host]);
         _gaq.push(['juegus_slider1._trackPageview']);
+
 
 (function() {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
