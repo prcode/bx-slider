@@ -271,7 +271,8 @@ var section = content + ' > div';
 var _gaq = _gaq || [];
 
         _gaq.push(['juegus_slider1._setAccount', 'UA-43658701-1']);
-        _gaq.push(['juegus_slider1._setDomainName', window.location.host]);
+        //_gaq.push(['juegus_slider1._setDomainName', window.location.host]);
+        _gaq.push(['_setReferrerOverride', window.location.host])
         _gaq.push(['juegus_slider1._trackPageview']);
 
 
