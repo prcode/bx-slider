@@ -154,6 +154,12 @@ function main() {
 </span> \
 </a> \
 </div> <div class="block"> \
+<a target="_blank" href="http://jueg.us/hard-rock-racing/"> \
+<span class="icon-wrap"> \
+<img src="https://lh3.googleusercontent.com/-Gm8vbvZxo44/UiNhHFqceDI/AAAAAAAADLg/w9NvIDPN1-E/w148-h108-no/Hard+Rock+Racing.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
 <a target="_blank" href="http://jueg.us/robo-rampage/"> \
 <span class="icon-wrap"> \
 <img src="https://lh6.googleusercontent.com/-AgDbj29g11c/UhZyUwYZPKI/AAAAAAAACyU/52Th1lxWQU4/w148-h108-no/roborampage.jpg"/> \
