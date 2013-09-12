@@ -102,7 +102,7 @@ function main() {
         var css_link = $("<link>", { 
             rel: "stylesheet", 
             type: "text/css", 
-            href: "http://jueg.us/wp-content/themes/the-bootstrap/js/style-widget-v.css?v=5" 
+            href: "http://prcode.github.io/bx-slider/slider-juegus/style-widget-v.css?v=5" 
         });
         css_link.appendTo('head');          
         
