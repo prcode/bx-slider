@@ -52,6 +52,16 @@ function main() {
         var w = $(section).width();
         var c = (w * $(section).length - v) / 2;
         
+        $("div#ghostCarousel div#content div.block").sort(function(){
+            return Math.random()*10 > 5 ? 1 : -1;
+        }).each(function(){
+            var $t = $(this),
+                color = $t.attr("class");
+            $t.appendTo( $t.parent() );
+            
+        });
+
+        
         $(content).width(w * $(section).length);
         $(content).css('margin-left', -c);
 

@@ -52,6 +52,15 @@ function main() {
         $('#gcNavRight, #gcNavLeft').css({ 'left':((width/2)-16)+'px' });
         $('#ghostCarousel').css({'width':$('#slider-de-juegos-v').width(), 'height':$('#slider-de-juegos-v').height()});
 
+        $("div#ghostCarousel div#content div.block").sort(function(){
+    return Math.random()*10 > 5 ? 1 : -1;
+}).each(function(){
+    var $t = $(this),
+        color = $t.attr("class");
+    $t.appendTo( $t.parent() );
+    
+});
+
         var v = $('#slider-de-juegos-v').height();
         var w = $(section).height();
         var c = ((w * $(section).length - v) / 2)-5;
@@ -82,10 +91,10 @@ function main() {
         });
         
 
-
+        /*
         $('#slider-de-juegos-v a').each(function( index ) {
             $(this).attr('href',$(this).attr('href')+'?ref='+window.location.host+'sjv');
-        });
+        });*/
     }
     
     
