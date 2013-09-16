@@ -61,7 +61,7 @@ function main() {
             
         });
 
-        
+
         $(content).width(w * $(section).length);
         $(content).css('margin-left', -c);
 
@@ -110,6 +110,42 @@ function main() {
         $('#slider-de-juegos').hide();
         lestr = '<div id="ghostCarousel" style=""> \
 <div id="content"> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/4x4-offroad-racing/"> \
+<span class="icon-wrap"> \
+<img src="https://lh3.googleusercontent.com/-SVIyaVWmz-A/UieUlnuiVvI/AAAAAAAADYM/9pUObTho1PU/w148-h108-no/4x4+Offroad+Racing.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/boarder-x-battle/"> \
+<span class="icon-wrap"> \
+<img src="https://lh3.googleusercontent.com/-5RrQGlNw6QY/UiejnqByi4I/AAAAAAAADZA/86Pm3yjyvO4/w148-h108-no/Boarder+X+Battle.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/coyote-chase/"> \
+<span class="icon-wrap"> \
+<img src="https://lh5.googleusercontent.com/-40hRMLklnqk/UienNT8PefI/AAAAAAAADZc/gSKHDfgj9m0/w148-h108-no/Coyote+Chase.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/ben10-ultimate-crisis/"> \
+<span class="icon-wrap"> \
+<img src="https://lh5.googleusercontent.com/-VzuhTLHQt_s/UiZBbBALgjI/AAAAAAAADS8/llbmpV3lUb4/w148-h108-no/Ultimate+Crisis.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/dragons-wild-skies-3d/"> \
+<span class="icon-wrap"> \
+<img src="https://lh3.googleusercontent.com/-_SKoS8DCuQo/Uieuzgy8RhI/AAAAAAAADZ8/HlJv3CKp_40/w148-h108-no/Dragons+Wild+Skies+3D.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/extreme-rally-run/"> \
+<span class="icon-wrap"> \
+<img src="https://lh3.googleusercontent.com/-4wM_IyajRmo/Uiezf2c5z8I/AAAAAAAADaU/rlenBdu_RlE/w148-h108-no/Extreme+Rally+Run.jpg"/> \
+</span> \
+</a> \
+</div> <div class="block"> \
 <a target="_blank" href="http://jueg.us/tennis-stars-cup/"> \
 <span class="icon-wrap"> \
 <img src="https://lh5.googleusercontent.com/-47WJ1PL50Ds/UhtJwhqkHRI/AAAAAAAAC68/kO0F_QHCiWE/w148-h108-no/tennis-stars-cup.jpg"/> \
