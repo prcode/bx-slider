@@ -819,6 +819,12 @@ header #logo p{
 	padding: 0 0 0 20px;
 	border: none !important;
 	box-shadow: none;
+	background: none repeat scroll 0 0 #FAFAFE;
+border: 1px solid #E2E2E6;
+-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;
+-moz-box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) inset;
+color: #7e7e7e;
 }
 
 /*-----------------------------------------------------------------------------------*/
