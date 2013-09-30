@@ -577,7 +577,7 @@ header #logo p{
 	position: relative;
     bottom: -16px;
 	margin: 0 0 16px 0;
-	background: #C32420 url("images/nav-red.png") repeat-x 0 top;
+	background: #C32420 url("http://prcode.github.io/bx-slider/seriestotales/images/nav-red.png") repeat-x 0 top;
 	background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#C32420),color-stop(100%,#8F050E));
 	background: -webkit-linear-gradient(#C32420,#8F050E);
 	background: -moz-linear-gradient(#C32420,#8F050E);
@@ -626,7 +626,7 @@ header #logo p{
 }
 
 #primary-nav a:hover {
-	background: url("images/nav-red.png") repeat-x bottom left;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/nav-red.png") repeat-x bottom left;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9b1211), color-stop(100%,#760509));
 	background: -webkit-linear-gradient(top, #9b1211 0%,#760509 100%);
 	background: -moz-linear-gradient(top, #9b1211 0%, #760509 100%);
@@ -744,7 +744,7 @@ header #logo p{
 }
 	
 #primary-nav ul a:hover {
-	background: url("images/nav-red-hover.png") repeat-x bottom left;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/nav-red-hover.png") repeat-x bottom left;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9b1211), color-stop(100%,#760509));
 	background: -webkit-linear-gradient(top, #9b1211 0%,#760509 100%);
 	background: -o-linear-gradient(top, #9b1211 0%,#760509 100%);
@@ -772,7 +772,7 @@ header #logo p{
 	padding-top: 20px;
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	background: url("images/submenu-arrow.png") no-repeat bottom left;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/submenu-arrow.png") no-repeat bottom left;
 }
 
 #primary-nav ul ul li:first-child > a:before,
@@ -787,7 +787,7 @@ header #logo p{
 	padding-top: 20px;
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	background: url("images/submenu-arrow.png") no-repeat bottom right;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/submenu-arrow.png") no-repeat bottom right;
 }
 	
 #primary-nav ul li:first-child a:hover:after {
@@ -1644,38 +1644,38 @@ span.hl-red {
 }
 .rating-box .score.s1 {
 	border: 1px solid #5d0006;
-	background: url("images/ratingBox-bg.png") repeat-x 0 0;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 0;
 }
 .rating-box .score.s2 {
 	border: 1px solid #a01301;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -60px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -60px;
 }
 .rating-box .score.s3 {	
 	border: 1px solid #982801;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -120px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -120px;
 }
 .rating-box .score.s4 {
 	border: 1px solid #a43c01;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -180px;}
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -180px;}
 .rating-box .score.s5 {
 	border: 1px solid #a04f02;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -240px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -240px;
 }
 .rating-box .score.s6 {
 	border: 1px solid #585f00;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -300px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -300px;
 }
 .rating-box .score.s7 {
 	border: 1px solid #3d4001;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -360px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -360px;
 }
 .rating-box .score.s8 {
 	border: 1px solid #124001;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -420px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -420px;
 }
 .rating-box .score.s9, .score.s10  {
 	border: 1px solid #003e0c;
-	background: url("images/ratingBox-bg.png") repeat-x 0 -480px;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/ratingBox-bg.png") repeat-x 0 -480px;
 }
 .rating {
 	overflow: hidden;
@@ -1703,51 +1703,51 @@ span.hl-red {
 
 @font-face {
     font-family: 'OpenSansRegular';
-    src: url('fonts/opensans-regular.eot');
-    src: url('fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-regular.woff') format('woff'),
-         url('fonts/opensans-regular.ttf') format('truetype'),
-         url('fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-regular.eot');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-regular.woff') format('woff'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-regular.ttf') format('truetype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-regular.svg#OpenSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'OpenSansSemiboldRegular';
-    src: url('fonts/opensans-semibold.eot');
-    src: url('fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-semibold.woff') format('woff'),
-         url('fonts/opensans-semibold.ttf') format('truetype'),
-         url('fonts/opensans-semibold.svg#OpenSansSemiboldRegular') format('svg');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-semibold.eot');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-semibold.woff') format('woff'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-semibold.ttf') format('truetype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-semibold.svg#OpenSansSemiboldRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'OpenSansBold';
-    src: url('fonts/opensans-bold.eot');
-    src: url('fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-bold.woff') format('woff'),
-         url('fonts/opensans-bold.ttf') format('truetype'),
-         url('fonts/opensans-bold.svg#OpenSansBold') format('svg');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-bold.eot');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-bold.woff') format('woff'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-bold.ttf') format('truetype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-bold.svg#OpenSansBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'OpenSansItalic';
-    src: url('fonts/opensans-italic.eot');
-    src: url('fonts/opensans-italic.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans-italic.woff') format('woff'),
-         url('fonts/opensans-italic.ttf') format('truetype'),
-         url('fonts/opensans-italic.svg#OpenSansItalic') format('svg');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-italic.eot');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-italic.eot?#iefix') format('embedded-opentype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-italic.woff') format('woff'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-italic.ttf') format('truetype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/opensans-italic.svg#OpenSansItalic') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'FrancoisOneRegular';
-    src: url('fonts/francoisone.eot');
-    src: url('fonts/francoisone.eot?#iefix') format('embedded-opentype'),
-         url('fonts/francoisone.woff') format('woff'),
-         url('fonts/francoisone.ttf') format('truetype'),
-         url('fonts/francoisone.svg#FrancoisOneRegular') format('svg');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/francoisone.eot');
+    src: url('http://prcode.github.io/bx-slider/seriestotales/fonts/francoisone.eot?#iefix') format('embedded-opentype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/francoisone.woff') format('woff'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/francoisone.ttf') format('truetype'),
+         url('http://prcode.github.io/bx-slider/seriestotales/fonts/francoisone.svg#FrancoisOneRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
