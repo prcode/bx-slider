@@ -802,7 +802,7 @@ header #logo p{
 
 /*	Search field  */
 #search {
-	background: url(images/searchbar-bg.png) no-repeat top left;
+	background: url(http://prcode.github.io/bx-slider/seriestotales/images/searchbar-bg.png) no-repeat top left;
 	width: 150px;
 	margin: 7px 18px 0 0;
 	float: right;
@@ -936,7 +936,7 @@ article.list-small-thumb:last-child, .list-big-thumb:last-child {
 	margin: 0 !important;
 }
 article.list-small-thumb .entry-date, article.list-big-thumb .entry-date{
-	background: url("images/date-bg.png") repeat-x 0 0;
+	background: url("http://prcode.github.io/bx-slider/seriestotales/images/date-bg.png") repeat-x 0 0;
 	width: 48px;
 	height: 48px;
 	position: absolute;
