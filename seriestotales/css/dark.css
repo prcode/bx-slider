@@ -2937,8 +2937,8 @@ height: 100px;
 }
 /* content_6 scrollbar */
 .content_6>.mCustomScrollBox>.mCSB_scrollTools{
-	width:88%;
-	margin: 0 6%;
+	width: 100%;
+background: #000;
 }
 /* content_8 scrollbar */
 .content_8 .mCSB_scrollTools .mCSB_draggerRail{
