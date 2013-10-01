@@ -2331,3 +2331,54 @@ font-weight: bold;
 .episode-error{display: none;}
 
 .episode-notes h3 {font-size: 14px;}
+
+
+
+    #content-wrapper {overflow: hidden;}
+
+    
+.thumb span {
+position: absolute;
+left: 0;
+background: rgba(0, 0, 0, 0.8);
+color: #ffffff;
+font-weight: bold;
+padding: 4px 6px;
+line-height: 1.2em;
+width: 78px;
+bottom: 0;
+
+font-size: 11px;
+vertical-align: baseline;
+outline: 0;
+ transition: bottom 0.9s;
+  -moz-transition: bottom 0.9s;
+  -webkit-transition: bottom 0.9s;
+  -o-transition: bottom 0.9s;
+  -ms-transition: bottom 0.9s;
+}
+
+.thumb span {
+text-align: center;
+width: 57px;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.thumb a:hover span {
+  bottom: -100px;
+  transition: bottom 0.9s;
+  -moz-transition: bottom 0.9s;
+  -webkit-transition: bottom 0.9s;
+  -o-transition: bottom 0.9s;
+  -ms-transition: bottom 0.9s;
+}
+
+.thumb {
+width: 69px;
+float: left;
+margin: 6px 5px 6px 0;
+position: relative;
+overflow: hidden;
+height: 100px;
+}
