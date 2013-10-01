@@ -2946,3 +2946,31 @@ background: #000;
 	border-left:1px solid rgba(0,0,0,0.8);
 	border-right:1px solid rgba(255,255,255,0.2);
 }
+
+
+
+
+.thumb-serie {float: left; position: relative; width: 140px; margin-left: 5px;}
+.thumb-serie span {
+text-align: center;
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+position: absolute;
+left: 0;
+background: rgba(0, 0, 0, 0.8);
+color: #ffffff;
+font-weight: bold;
+padding: 4px 6px;
+line-height: 1.2em;
+bottom: 0;
+
+font-size: 14px;
+vertical-align: baseline;
+outline: 0;
+ transition: bottom 0.9s;
+  -moz-transition: bottom 0.9s;
+  -webkit-transition: bottom 0.9s;
+  -o-transition: bottom 0.9s;
+  -ms-transition: bottom 0.9s;
+}
