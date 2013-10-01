@@ -2308,6 +2308,9 @@ background-position: 0 -30px;
 background-position: -22px -165px;
 }
 
+.flags.lat {
+background-position: 0 -45px;
+}
 
 .server {
 background-image: url("http://prcode.github.io/bx-slider/seriestotales/servers.png");
