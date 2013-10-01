@@ -2950,7 +2950,7 @@ background: #000;
 
 
 
-.thumb-serie {float: left; position: relative; width: 140px; margin-left: 5px;}
+.thumb-serie {float: left; position: relative; width: 140px; margin: 5px 5px 5px 0px;}
 .thumb-serie span {
 text-align: center;
 width: 100%;
@@ -2973,4 +2973,24 @@ outline: 0;
   -webkit-transition: bottom 0.9s;
   -o-transition: bottom 0.9s;
   -ms-transition: bottom 0.9s;
+}
+
+
+.compartir {
+background: url("http://3.bp.blogspot.com/-d__cHejujRg/Ua3tyNKOwSI/AAAAAAAABF8/sO85nkyf_sQ/s1600/likebg.png") no-repeat;
+bottom: 1px;
+float: right;
+right: 10px;
+position: fixed;
+height: 115px;
+width: 330px;
+margin-bottom: 0px;
+}
+
+.compartir-close{
+    position: absolute;
+    top:5px;
+    right:55px;
+    color: #fff;
+    cursor: pointer;
 }
