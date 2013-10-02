@@ -3082,3 +3082,8 @@ outline: 0;
   -o-transition: bottom 0.9s;
   -ms-transition: bottom 0.9s;
 }
+
+
+.widget ul li { float:left; margin-left: 15px;}
+
+
