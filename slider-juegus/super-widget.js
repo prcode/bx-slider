@@ -110,6 +110,36 @@ function main() {
         $('#slider-de-juegos').hide();
         lestr = '<div id="ghostCarousel" style=""> \
 <div id="content"> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/combat-3/"> \
+<span class="icon-wrap"> \
+<img src="https://lh6.googleusercontent.com/-SvV_35gLXeA/UnEYrju5L1I/AAAAAAAAGt0/py7S9_JR4AU/w148-h108-no/Combat+3.jpg" /> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/cobra-strike/"> \
+<span class="icon-wrap"> \
+<img src="https://lh5.googleusercontent.com/-MCiSIutlzYw/UnEhByyD-VI/AAAAAAAAGuQ/AqQ_peG86jk/w148-h108-no/Cobra+strike.jpg" /> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/zombies-do-not-run/"> \
+<span class="icon-wrap"> \
+<img src="https://lh5.googleusercontent.com/-deoie3tGmHE/UnEmIR35zFI/AAAAAAAAGus/xyJQeyPPzWU/w148-h108-no/zombies+do+not+run.jpg" /> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/tron-legacy-disc-table/"> \
+<span class="icon-wrap"> \
+<img src="https://lh6.googleusercontent.com/-wBt5Clr9M8s/UoT7uDNwdhI/AAAAAAAAHTk/DBVlwo8KPMs/w148-h108-no/Tron+Legacy+Disc+Table.jpg" /> \
+</span> \
+</a> \
+</div> <div class="block"> \
+<a target="_blank" href="http://www.jueg.us/phineas-and-ferb-dimension-of-doom/"> \
+<span class="icon-wrap"> \
+<img src="https://lh6.googleusercontent.com/-HEcFXM6gg6M/UoT9ZvaqSoI/AAAAAAAAHT8/ZljBoRB2WtI/w148-h108-no/Phineas+And+Ferb+Dimension+of+Doom.jpg" /> \
+</span> \
+</a> \
+</div> <div class="block"> \
 <a target="_blank" href="http://www.jueg.us/kung-fu-panda-rumble/"> \
 <span class="icon-wrap"> \
 <img src="https://lh5.googleusercontent.com/-PHqEhjj6RpQ/UoUBo_TvXfI/AAAAAAAAHU0/Kuq6czotaVA/w148-h108-no/Kung+Fu+Panda+Rumble.jpg" /> \
