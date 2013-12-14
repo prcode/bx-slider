@@ -115,25 +115,25 @@ function main() {
 <img src="https://lh5.googleusercontent.com/-PHqEhjj6RpQ/UoUBo_TvXfI/AAAAAAAAHU0/Kuq6czotaVA/w148-h108-no/Kung+Fu+Panda+Rumble.jpg" /> \
 </span> \
 </a> \
-</div> <div class="block"> \ 
+</div> <div class="block">\
 <a target="_blank" href="http://www.jueg.us/green-lantern-emerald-adventures/"> \
 <span class="icon-wrap"> \
 <img src="https://lh3.googleusercontent.com/-u44bHjVVKAw/UoUFZH-s7sI/AAAAAAAAHVQ/eTff2W0DVVk/w148-h108-no/Green+Lantern+Emerald+Adventures.jpg" /> \
 </span> \
 </a> \
-</div> <div class="block"> \ 
+</div> <div class="block"> \
 <a target="_blank" href="http://www.jueg.us/lego-star-wars-yoda-chronicles/"> \
 <span class="icon-wrap"> \
 <img src="https://lh5.googleusercontent.com/--8dsIajkJzY/UoUHN_S1mvI/AAAAAAAAHVo/KvgNyZ3TfUw/w148-h108-no/Lego+Star+Wars+Yoda+Chronicles.jpg" /> \
 </span> \
 </a> \
-</div> <div class="block"> \ 
+</div> <div class="block"> \
 <a target="_blank" href="http://www.jueg.us/green-lantern-combat/"> \
 <span class="icon-wrap"> \
 <img src="https://lh6.googleusercontent.com/-HS3NQEZ2AWk/UoUAAqLLB-I/AAAAAAAAHUc/Mgl9XVItSP4/w148-h108-no/Green+Lantern+Combat.jpg" /> \
 </span> \
 </a> \
-</div> <div class="block"> \ 
+</div> <div class="block"> \
 <a target="_blank" href="http://www.jueg.us/carnage-colosseum/"> \
 <span class="icon-wrap"> \
 <img src="https://lh6.googleusercontent.com/-WyGAVJ25a_E/UkDCmL54MeI/AAAAAAAAEMQ/8gZ4Z2o_SCY/w148-h108-no/Carnage+Colosseum.jpg" /> \
