@@ -1,3 +1,5 @@
+function loadHeaderNav(){
+
 var SETTINGS = {
     navBarTravelling: false,
     navBarTravelDirection: "",
@@ -275,3 +277,4 @@ function determineOverflow(content, container) {
 
     exports.reset = reset;
 }));
+};
