@@ -1,4 +1,4 @@
-function loadHeaderNav(){
+window.loadHeaderNav(){
 
 var SETTINGS = {
     navBarTravelling: false,
